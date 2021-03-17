@@ -1,3 +1,3 @@
-# Repositorio-dos-projetos-CursoProgBr
+# Repositório-dos-projetos-CursoProgBr
 
- Primeiro repositório.
+ Primeiro repósitório.
