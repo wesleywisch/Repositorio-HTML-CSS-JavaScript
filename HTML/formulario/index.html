@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+
+
+    <form method="POST" action="/cadastro">
+        <input type="text" name="nome"> <br>
+        
+        <input type="password" name="senha"> <br>
+
+        <input type="checkbox" name="curso" value="op1">React Native <br>
+
+        <input type="checkbox" name="curso" value="op2">Java Script <br>
+
+        <input type="radio" name="gender" value="m" checked>Masculino <br>
+        <input type="radio" name="gender" value="f">Feminino <br>
+
+        <input type="reset" value="Limpar">
+
+        <input type="submit" value="Enviar">
+
+    
+
+
+
+    </form>
+    
+    <br><br><br><br><br><br>
+    <hr> 
+    
+
+        1. method = Método adotado para o envio do formulário para o servidor, seu valor pode ser GET ou POST, a depender do qual se utilize, há diferença no papel do back-end:
+
+            1.1 GET
+
+        Esse método carrega mais rapidamente porque é enviado através do url da página mostra o que o usuário escreveu no input, exibe sua requisição. Pode-se ver exemplos disso no **campo de busca do Google ou do Youtube.
+
+        E além disso, o que for digitado não pode ultrapassar 255 caracteres.
+
+            1.2 POST
+
+        Esconde os dados digitados nos inputs, de forma que eles não apareçam na url, pois são enviados através do head do HTML, que é a parte não-visível do documento. Apesar de ser um pouco demorado no momento do carregamento, é o mais seguro, por não exibir informações confidenciais.
+
+        Outro detalhe é que, diferentemente do método get, esse não possui limitação de caracteres no momento do envio dos dados
+
+        2. action =  Lugar para onde os dados inseridos pelo usuário serão destinados, o lugar onde haverá 
+
+
+</body>
+</html>
