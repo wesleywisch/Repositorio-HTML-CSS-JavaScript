@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+
+#card {
+    width: 400px;
+    height: 200px;
+    background-image: url('./Imagens/backgorund.png');
+   background-repeat: no-repeat;
+   position:relative;top: 40px; left: 30px;
+   background-size: cover;
+   margin: auto;
+   margin-top: 10%;
+}
+
+h1{
+    color: black;
+    margin-left: 35px;
+    padding-top: 15px;
+    /* nao mecher */
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    margin-left: 45px;
+    margin-top: -25px;
+    color: black;
+}
