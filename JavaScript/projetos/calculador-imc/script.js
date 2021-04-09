@@ -3,10 +3,10 @@
 function calcular(){
     // funcionalidade
 
-    let inputA = document.getElementById("Altura").value;
-    let inputP = document.getElementById("PesoKg").value;
-    let res = (Math.pow(inputA, 2)) / inputP;
-    document.getElementById("res").value = res;
+    let altura = parseFloat(document.getElementById("Altura").value);
+    let peso = parseFloat(document.getElementById("PesoKg").value);
+    let resultado = peso / (altura * altura)
+    document.getElementById("res").value = resultado;
 
     // obsevando se os campos foram preenchidos
 
