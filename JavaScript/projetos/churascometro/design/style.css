@@ -45,23 +45,102 @@ header img{
     position: absolute;
 }
 
+ /*Formulario*/
+
+ #formulario{
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    height: 650px;
+    margin: 7% 0px 0px 13%;
+    background-color: rgba(255, 255, 255, 0.39);
+    border-radius: 20px;
+}
+
+.inputs{
+    display: block;
+    width: 82%;
+    margin: auto;
+    margin-top: 25px;
+    padding: 20px 10px 20px 20px;
+    border: 2px solid black;
+    border-radius: 15px;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+}
 
 
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+}
 
+#formulario p{
+    color: black;
+    font-size: 1.7rem;
+    text-align: center;
+    text-shadow: 0px 1px 1px #000000;
+}
 
+#formulario button{
+    width: 100%;
+    padding: 8px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
 
+/*img-inputs*/
+.imginput1{
+    top: 4.5%;
+    right: 38px;
+    position: absolute;
+    width: 50px;
+}
+.imginput2{
+    top: 19.5%;
+    right: 38px;
+    position: absolute;
+    width: 50px;
+}
 
+.imginput3{
+    top: 33.5%;
+    right: 40px;
+    position: absolute;
+    width: 50px;
+}
 
+.imginput4{
+    top: 47.8%;
+    right: 38px;
+    position: absolute;
+    width: 50px;
+}
 
+/*icones*/
 
+.icones{
+    display: inline-block;
+    margin: 20px 0px 20px 60px;
+    width: 75px;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
-
+.icones:focus{
+    border: 2px solid red;
+    background-color: #F1F1F1;
+    -webkit-box-shadow: 2px 9px 26px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 9px 26px -15px rgba(0,0,0,0.75);
+    box-shadow: 2px 9px 26px -15px rgba(0,0,0,0.75);
+    outline: none;
+}
 
 /*rodapé*/
 
