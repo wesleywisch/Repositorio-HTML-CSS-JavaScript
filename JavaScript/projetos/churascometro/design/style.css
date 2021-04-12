@@ -96,6 +96,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 /*img-inputs*/
+
 .imginput1{
     top: 4.5%;
     right: 38px;
@@ -123,7 +124,7 @@ input[type=number]::-webkit-inner-spin-button {
     width: 50px;
 }
 
-/*icones*/
+/*icones  -  importante: essa parte ainda vou arrumar mais para frente pois nao consegui deixar como eu queria    */
 
 .icones{
     display: inline-block;
@@ -131,17 +132,17 @@ input[type=number]::-webkit-inner-spin-button {
     width: 75px;
     border-radius: 10px;
     padding: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
-.icones:focus{
+/* .icones:focus{
     border: 2px solid red;
     background-color: #F1F1F1;
     -webkit-box-shadow: 2px 9px 26px -15px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 9px 26px -15px rgba(0,0,0,0.75);
     box-shadow: 2px 9px 26px -15px rgba(0,0,0,0.75);
     outline: none;
-}
+} */
 
 
 /*Mostrador*/
@@ -164,24 +165,9 @@ input[type=number]::-webkit-inner-spin-button {
     margin-bottom: 15px;
 }
 
-#seta{
-    width: 40px;
-    cursor: pointer;
-    margin-top: -5px;
-    position: absolute;
-    right: 0;
-    opacity: 0.7;
-    transition: opacity 0.3s;
+.abrir{
+    display: none;
 }
-
-#seta:hover{
-    opacity: 1;
-}
-
-
-/* #mostrador.abrir{
-    display: block !important;
-} */
 
 .imginput11{
     top: 19%;
@@ -203,8 +189,20 @@ input[type=number]::-webkit-inner-spin-button {
     width: 50px;
 }
 
+ /* parte da seta para voltar */
+#seta{
+    width: 40px;
+    cursor: pointer;
+    margin-top: -5px;
+    position: absolute;
+    right: 0;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
 
-
+#seta:hover{
+    opacity: 1;
+}
 
 /*rodapé*/
 
