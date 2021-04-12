@@ -80,6 +80,7 @@ input[type=number]::-webkit-inner-spin-button {
     font-size: 1.7rem;
     text-align: center;
     text-shadow: 0px 1px 1px #000000;
+    margin-top: 20px;
 }
 
 #formulario button{
@@ -142,6 +143,69 @@ input[type=number]::-webkit-inner-spin-button {
     outline: none;
 }
 
+
+/*Mostrador*/
+
+#mostrador{
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    height: 650px;
+    margin: 7% 0px 0px 13%;
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+}
+
+#mostrador p, h3{
+    margin-left: 13%;
+    font-size: 25px;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+#seta{
+    width: 40px;
+    cursor: pointer;
+    margin-top: -5px;
+    position: absolute;
+    right: 0;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+#seta:hover{
+    opacity: 1;
+}
+
+
+/* #mostrador.abrir{
+    display: block !important;
+} */
+
+.imginput11{
+    top: 19%;
+    right: 38px;
+    position: absolute;
+    width: 50px;
+}
+.imginput12{
+    top: 33.5%;
+    right: 38px;
+    position: absolute;
+    width: 50px;
+}
+
+.imginput13{
+    top: 47.5%;
+    right: 40px;
+    position: absolute;
+    width: 50px;
+}
+
+
+
+
 /*rodapé*/
 
 footer{
@@ -157,4 +221,69 @@ footer p{
     font-size: 15px;
     text-align: center;
     margin-top: 5px;
+}
+
+@media screen and (max-width: 1800px){
+    #formulario{
+        margin-top: 120px;
+    }
+    #mostrador{
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 1.6rem;
+    }
+    #formulario{
+        width: 350px;
+        margin-top: 120px;
+    }
+    #mostrador{
+        width: 350px;
+        margin-top: 120px;
+    }
+    .imginput1{
+        margin-right: -16px;
+    }
+    .imginput2{
+        margin-right: -16px;
+    }
+    .imginput3{
+        margin-right: -16px;
+    }
+    .imginput4{
+        margin-right: -16px;
+    }
+    .icones{
+        width: 50px;
+        margin-left: 40px;
+    }
+    #formulario p{
+        margin-top: 20px;
+    }
+    .imginput11{
+        margin-right: -16px;
+    }
+    .imginput12{
+        margin-right: -16px;
+    }
+    .imginput13{
+        margin-right: -16px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    #bacground-meio{
+        margin-top: 56px;
+    }
+    footer{
+        margin-top: 816px;
+    }
 }
