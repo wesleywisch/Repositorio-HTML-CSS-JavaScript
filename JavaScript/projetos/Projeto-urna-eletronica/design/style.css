@@ -28,6 +28,11 @@
 
 #painel p{
     text-align: center;
+    margin-top: 130px;
+    font-size: 35px;
+}
+#painel #informa{
+    text-align: center;
     margin-top: 5px;
     font-size: 25px;
 }

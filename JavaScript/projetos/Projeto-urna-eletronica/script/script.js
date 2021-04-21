@@ -7,32 +7,32 @@ function insert(num){
 }
 
 function corrige(){
-    if(painel.innerHTML == "Votar branco?"){
-        innerHTML = painel
-    }else if(painel.innerHTML == "Votar nulo?"){
-        innerHTML = painel
-    }else if(painel.innerHTML == "Voto computado"){
-        innerHTML = painel
-        return
+    if(painel.innerHTML == "<p>Votar nulo?</p>" || painel.innerHTML == "<p>Votar branco?</p>"){
+        painel = ""
     }
 }
 
 function branco(){
-    painel.innerHTML = "Votar branco?"
+    painel.innerHTML = "<p>Votar branco?</p>"
 }
 
-
-function confirma(){ 
-    if(painel.innerHTML == "Votar branco?"){
-        painel.innerHTML = "Voto computado"
-        return
-    }
-
-
+function verificar(){
     let numero = document.getElementById("numero").innerHTML;
     if(numero == "17" || numero == "13" || numero == "12" || numero == "45"){
-        painel.innerHTML = "Voto computado"
-    }else if(painel.innerHTML = "Votar nulo?"){
-        painel.innerHTML = "Voto computado"
+        painel.innerHTML = "<p>Voto computado</p>"
+    }else{
+        painel.innerHTML = "<p>Votar nulo?</p>"
     }
+}
+
+function confirma(){ 
+    if(painel.innerHTML == "<p>Votar nulo?</p>"){
+        painel.innerHTML = "<p>Voto computado</p>"
+        return
+    }
+    if(painel.innerHTML == "<p>Votar branco?</p>"){
+        painel.innerHTML = "<p>Voto computado</p>"
+        return
+    }
+    verificar()
 }
