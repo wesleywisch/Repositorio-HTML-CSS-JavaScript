@@ -32,6 +32,11 @@
     font-size: 25px;
 }
 
+#painel #numero{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
 #controles{
     width: 340px;
     height: 320px;
@@ -49,6 +54,7 @@
     background-color: black;
     border: 2px solid gray;
     color: white;
+    outline: none;
 }
 
 .botaozero{
@@ -62,6 +68,7 @@
     background-color: black;
     border: 2px solid gray;
     color: white;
+    outline: none;
 }
 
 #branco{
