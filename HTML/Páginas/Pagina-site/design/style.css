@@ -1,9 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Nunito, Arial, Helvetica, sans-serif;
 }
 
+    /*header pronto*/
 nav img{
     width: 100%;
     position: relative;
@@ -37,4 +38,156 @@ nav ul{
 nav a{
     text-decoration: none;
     color: white;
+}
+
+nav div{
+    width: 600px;
+    position: absolute;
+    font-size: 42px;
+    color: white;
+    border: 3px solid white;
+    padding: 35px;
+    top: 32%;
+    left: 16%;
+}
+
+    /*Primeira sessão*/
+
+#sessao1{
+    position: absolute;
+    width: 50%;
+    margin-top: 48%;
+    margin-left: 16%;
+}
+
+#sessao1 div{
+    position: absolute;
+    width: 620px;
+    background-color: white;
+    padding: 70px;
+    margin-left: 60%;
+    margin-top: -35%;
+}
+
+#sessao1 h2{
+    font-size: 42px;
+}
+
+#sessao1 p{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+    /*Sessao das fotos*/
+
+#fotos h2{
+    position: absolute;
+    top: 180%;
+    font-size: 36px;
+    left: 16%;
+}
+
+#fotos button{
+    position: absolute;
+    top: 180%;
+    left: 74%;
+    padding: 10px;
+    width: 160px;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid grey;
+    outline: none;
+    cursor: pointer;
+}
+
+#fotos ul{
+    position: absolute;
+    top: 200%;
+    margin-left: 12%;
+}
+
+#fotos li{
+    display: inline-block;
+    margin-left: 70px;
+}
+
+#fotos p{
+    position: absolute;
+    top: 80%;
+    font-size: 25px;
+    margin-left: 7%;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+    /*Sessao de fotos 1*/
+
+#fotos1 ul{
+    position: absolute;
+    top: 250%;
+    margin-left: 12%;
+}
+
+#fotos1 li{
+    display: inline-block;
+    margin-left: 70px;
+}
+
+#fotos1 p{
+    position: absolute;
+    top: 80%;
+    font-size: 25px;
+    margin-left: 7%;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+/*footer*/
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 310%;
+    background-color: black;
+}
+
+footer h2{
+    position: absolute;
+    color: white;
+    left: 16%;
+    font-size: 36px;
+    margin-top: 1%;
+}
+
+footer li{
+    display: inline-block;
+    padding-left: 30px;
+    margin-top: 5px;
+}
+
+footer ul{
+    position: relative;
+    margin-left: 14%;
+    margin-top: 4.5%;
+    font-size: 16px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.801);
+    margin-top: -1.2%;
+    left: 65%;
+}
+
+#socials{
+    position: absolute;
+    top: 20%;
+    left: 64%;
+}
+
+#socials img{
+    margin-left: 15px;
 }
