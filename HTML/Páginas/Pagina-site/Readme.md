@@ -4,8 +4,9 @@
 
 ### Esse projeto fiz para aprimorar o meu conhecimento sobre CSS.
 
-  
+
 Front End para desktop vídeo:
+
 ![site1](https://user-images.githubusercontent.com/79159487/116293008-5f28a700-a764-11eb-8aa5-a0cda07fdfe3.gif)
 
 
