@@ -57,16 +57,16 @@ nav div{
     position: absolute;
     width: 50%;
     margin-top: 48%;
-    margin-left: 16%;
+    margin-left: 9%;
 }
 
 #sessao1 div{
     position: absolute;
-    width: 620px;
+    width: 560px;
     background-color: white;
-    padding: 70px;
-    margin-left: 60%;
-    margin-top: -35%;
+    padding: 20px;
+    margin-left: 85%;
+    margin-top: -48%;
 }
 
 #sessao1 h2{
@@ -75,21 +75,21 @@ nav div{
 
 #sessao1 p{
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 18.5px;
 }
 
     /*Sessao das fotos*/
 
 #fotos h2{
     position: absolute;
-    top: 180%;
+    top: 210%;
     font-size: 36px;
     left: 16%;
 }
 
 #fotos button{
     position: absolute;
-    top: 180%;
+    top: 210%;
     left: 74%;
     padding: 10px;
     width: 160px;
@@ -100,10 +100,14 @@ nav div{
     cursor: pointer;
 }
 
+#fotos li img{
+    width: 230px;
+}
+
 #fotos ul{
     position: absolute;
-    top: 200%;
-    margin-left: 12%;
+    top: 230%;
+    margin-left: 1%;
 }
 
 #fotos li{
@@ -120,11 +124,14 @@ nav div{
 }
 
     /*Sessao de fotos 1*/
+#fotos1 li img{
+    width: 230px;
+}
 
 #fotos1 ul{
     position: absolute;
-    top: 250%;
-    margin-left: 12%;
+    top: 303%;
+    margin-left: 1%;
 }
 
 #fotos1 li{
@@ -146,7 +153,7 @@ footer{
     position: absolute;
     width: 100%;
     height: 150px;
-    top: 310%;
+    top: 380%;
     background-color: black;
 }
 
