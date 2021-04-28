@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="./design/style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="painel">
+            <h1>Urna Eletrônica</h1>
+            <p id="informa">Informa o número do candidato:</p>
+            <p id="numero"></p>
+            <p id="computado"></p>
+        </div>
+
+        <div id="controles">
+            <table>
+                <tr>
+                    <td><button class="botao" onclick="insert(1)">1</button></td>
+                    <td><button class="botao" onclick="insert(2)">2</button></td>
+                    <td><button class="botao" onclick="insert(3)">3</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="insert(4)">4</button></td>
+                    <td><button class="botao" onclick="insert(5)">5</button></td>
+                    <td><button class="botao" onclick="insert(6)">6</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botao" onclick="insert(7)">7</button></td>
+                    <td><button class="botao" onclick="insert(8)">8</button></td>
+                    <td><button class="botao" onclick="insert(9)">9</button></td>
+                </tr>
+
+                <tr>
+                    <td><button class="botaozero" onclick="insert(0)">0</button></td>
+                </tr>
+
+                <tr>
+                    <td><button id="branco" onclick="branco()">BRANCO</button></td>
+                    <td><button id="corrige" onclick="corrige()">CORRIGE</button></td>
+                    <td><button id="confirma" onclick="confirma()">CONFIRMA</button></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div id="votos">
+
+        <h2>Legenda de votos:</h2>
+
+        <p>Jair Bolsonaro - 17</p>
+        <p>Fernando Haddad - 13</p>
+        <p>Ciro Gomes - 12</p>
+        <p>Geraldo Alckmin - 45</p>
+    </div>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#conteiner{
+    display: grid;
+    grid-template-areas:     "header" 
+                            "#comecar" 
+                            "#0 #1 #2"
+                            "#3 #4 #5"
+                            "#6 #7 #8";
+}
+
+body{
+    background-color: #20b2aa;
+}
+
+header{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 1%;
+    color: #ffffff;
+}
+
+#comecar{
+    text-align: center;
+    margin-top: 1%;
+}
+
+button{
+    padding: 6px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #090;
+    color: white;
+}
+
+button:hover{
+    border: 2px solid rgb(16, 248, 16);
+}
+
+#tabuleiro{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: #1c1c1c;
+    border: 2px solid #4d4d4d;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content: "🛡️";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content: "⚔️";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#jogador{
+    margin-top: 30px;
+    margin-left: -130px;
+}
+
+@media screen and (max-width:330px){
+    .square{
+        width: 75px;
+        height: 75px;
+    }
+
+    .o:after{
+        line-height: 75px;
+    }
+
+    .x:after{
+        line-height: 75px;
+    }
+}

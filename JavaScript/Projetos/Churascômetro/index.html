@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <img src="imagens/background-top.jpg" alt="background-topo" id="img-top">
+            <h1>Churrascômetro <img src="imagens/icon-churasqueira.png" alt="logo"></h1>
+            <P>Uma solução ideal para o seu churasco.</P>
+        </header>
+    </div>
+            
+    <div>
+        <img src="imagens/background-meio.jpg" alt="background-meio" id="bacground-meio">
+
+        <div id="formulario">
+            <div>
+                <input type="number" placeholder="N° de Homens" class="inputs" id="Homem">
+                <img src="imagens/icon-homem.png" alt="" class="imginput1">
+
+                <input type="number" placeholder="N° de Mulheres" class="inputs" id="Mulher">
+                <img src="imagens/icon-mulher.png" alt="" class="imginput2">
+
+                <input type="number" placeholder="N° de Crianças" class="inputs" id="Crianca">
+                <img src="imagens/icon-criança.png" alt="" class="imginput3">
+
+                <input type="number" placeholder="Tempo de duração (horas)" class="inputs" id="Horas">
+                <img src="imagens/relogio.png" alt="" class="imginput4">
+
+                <p>O que terá no churasco</p> <!--Nessa parte eu queria colococar como que se a pessoa clicasse e ela escolheria o que tivesse no churasco mais não consegui,
+                talvez mais para frente com mais conhecimentos eu vou adicionar essa função-->
+                
+                <img src="imagens/carne.png" alt="" class="icones"> <!--mais pra frente adicionar o tabindex = "0" -->
+                <img src="imagens/refrigerante.png" alt="" class="icones"> <!--mais pra frente adicionar o tabindex = "0" -->
+                <img src="imagens/cerveja.png" alt="" class="icones"> <!--mais pra frente adicionar o tabindex = "0" -->
+
+                <button onclick="calcular()" id="enter">Calcular</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="mostrador" class="abrir">
+            <img src="imagens/seta.png" alt="seta" id="seta" onclick="Setavoltar()">
+            <p>É hora de churascar! 🍖</p>
+            <h3>📄 Você precisa de: </h3>
+
+                <input type="text"class="inputs" id="rescarne" disabled>
+                <img src="imagens/carne.png" alt="" class="imginput11">
+
+                <input type="text" class="inputs" disabled id="resrefrigerante">
+                <img src="imagens/refrigerante.png" alt="" class="imginput12">
+
+                <input type="text" class="inputs" disabled id="rescerveja">
+                <img src="imagens/cerveja.png" alt="" class="imginput13">
+    </div>
+
+    <div id="footer">
+        <footer>
+            <p>Desenvolvido por Wesley Wisch</p>
+        </footer>
+    </div>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
