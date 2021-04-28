@@ -14,6 +14,7 @@
   
 Front End para desktop
 Vídeo:
+
 ![Churascômetro](https://user-images.githubusercontent.com/79159487/114893928-2be92e00-9ddc-11eb-94a4-053ca7949cee.gif)
 
  #### Possui suporte de responsividade.
