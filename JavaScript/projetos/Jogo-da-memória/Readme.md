@@ -1,4 +1,4 @@
-# Projeto copiei o site Só-lustre.
+# Projeto Jogo da memória.
 
   ## 📋 Sobre o projeto
 
