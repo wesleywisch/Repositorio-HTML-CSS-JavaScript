@@ -1,8 +1,8 @@
-# Projeto copiei o site Só-lustre.
+# Projeto clonei o site Só-lustre.
 
   ## 📋 Sobre o projeto
 
-### Esse projeto fiz para aprimorar o meu conhecimento sobre CSS, mais ainda não tinha o conhecimento sobre a responsividade então não esta responsivo, esse projeto copiei do site oficial: [Só-lustre](http://www.solustres.com.br/), fiz pois ainda tinha duvida sobre questão de posicionamento, então esse projeto para min foi bom, pois muitas duvidas foram tiradas.
+### Esse projeto fiz para aprimorar o meu conhecimento sobre CSS, mais ainda não tinha o conhecimento sobre a responsividade então não esta responsivo, esse projeto clonei do site oficial: [Só-lustre](http://www.solustres.com.br/), fiz pois ainda tinha duvida sobre questão de posicionamento, então esse projeto para min foi bom, pois muitas duvidas foram tiradas.
 
   
 Front End para desktop vídeo:
