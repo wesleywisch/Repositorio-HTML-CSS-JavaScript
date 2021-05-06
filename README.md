@@ -4,6 +4,8 @@
 
 ### 💻 E vou estar sempre evoluindo cada vez mais, assim futuramente estarei criando mais repositórios para separar as tecnologias, assim como um de firebase, jQuery, Bootstrap, NodeJS, MongoDB, React e Electron, e conforme mais tecnologias que estarei aprendendo para desenvolver também para o mobile como o React Native.
 
+### Entre em contato comigo.
+
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wesley-wisch/)](https://www.linkedin.com/in/wesley-wisch/)
 
 📧 **[wesley_wisch@hotmail.com](mailto:wesley_wisch@hotmail.com)**
