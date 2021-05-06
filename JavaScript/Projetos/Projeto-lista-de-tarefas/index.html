@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assests/design/style.css">
+    <title>Lista de tarefas</title>
+</head>
+<body>
+
+    <main class="container">
+        <header><h1>Lista de tarefas</h1></header>
+        <div class="addtodo">
+            <input type="text" placeholder="Adicione aqui a sua tarefa..." id="adicionar">
+            <button id="addtarefa"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg></button>
+        </div>
+
+        <ul class="lista"><!--aki ficaram as tarefas--></ul>
+    
+        <div class="baixo">
+            <span>Você possui <span class="numero"></span> tarefas pendentes.</span>
+            <button class="deltetodos">Limpar todas</button>
+        </div>
+    </main>
+    <script src="./assests/script/script.js"></script>
+</body>
+</html>

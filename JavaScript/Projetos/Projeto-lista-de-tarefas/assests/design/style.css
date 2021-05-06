@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Itim, Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 87vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #68EACC 0%, #497BE8 100%);
+}
+
+.container{
+    margin: 120px auto;
+    max-width: 800px;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.container header{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.container .addtodo{
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.addtodo input{
+    width: 90%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 1.2em;
+    outline: none;
+}
+
+.addtodo button{
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: rgb(0, 102, 0);
+    color: white;
+    font-size: 36px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .lista{
+    max-height: 350px;
+    overflow-y: auto;
+}
+
+.lista li{
+    height: 45px;
+    list-style: none; 
+    position: relative;
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    padding: 0px 15px;
+    overflow: hidden;
+    font-size: 1.8em;
+}
+
+.lista li span{
+    position: absolute;
+    right: -45px;
+    width: 45px;
+    text-align: center;
+    border-radius:  0 5px 5px 0;
+    background-color: red;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lista li span img{
+    height: 45px;
+}
+
+.lista li:hover span{
+    right: 0px;
+}
+
+.container .baixo{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+.baixo button{
+    border: none;
+    outline: none;
+    background: red;
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px 10px;
+}
+
+/*media queres*/
+
+@media screen and (max-width: 1200px){
+    .container{
+        max-width: 600px;
+        margin: 120px 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 680px){
+    .container{
+        max-width: 300px;
+    }
+
+    header h1{
+        font-size: 1.6em;
+    }
+
+    .baixo span{
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 385px){
+    .container{
+        max-width: 200px;
+    }
+}
