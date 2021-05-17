@@ -1,4 +1,4 @@
-# Projeto-Horas
+# Calculador-IMC
 
   ## 📋 Sobre o projeto
 
