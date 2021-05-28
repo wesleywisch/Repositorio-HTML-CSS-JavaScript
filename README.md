@@ -1,16 +1,19 @@
-#  📝 Repositório-dos-projetos-com-HTML-CSS-e-JavaScript
+# 📝 Repositório-dos-projetos-com-HTML-CSS-e-JavaScript
 
-## 💬 Neste repositório estará disponível, todo o meu começo como programador juntamente com os meus aprendizados neste caminho, então terá projetos dos mais simples ate os mais avançados, alguns terá responsividade outros não, pois o meu intuído deste repositório é postar e acompanhar todo o meu aprendizado com HTML, CSS e Java Script.
+<p  align="center"> <a  href="#sobre">Sobre</a>   • <a  href="#techs">Tecnologias</a> • <a  href="#autor">Autor</a> • <a  href="#licenca">Licença</a> </p>
 
-### 💻 E vou estar sempre evoluindo cada vez mais, assim futuramente estarei criando mais repositórios para separar as tecnologias, assim como um de firebase, jQuery, Bootstrap, NodeJS, MongoDB, React e Electron, e conforme mais tecnologias que estarei aprendendo para desenvolver também para o mobile como o React Native.
+<h2 id="sobre"> 💬 Neste repositório estará disponível, todo o meu começo como programador juntamente com os meus aprendizados neste caminho, então terá projetos dos mais simples ate os mais avançados, alguns terá responsividade outros não, pois o meu intuído deste repositório é postar e acompanhar todo o meu aprendizado com HTML, CSS e Java Script. </h2>
 
-### Entre em contato comigo.
+  
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wesley-wisch/)](https://www.linkedin.com/in/wesley-wisch/)
+<h3 id="techs"> 💻 E vou estar sempre evoluindo cada vez mais, assim futuramente estarei criando mais repositórios para separar as tecnologias, assim como um de firebase, jQuery, Bootstrap, NodeJS, MongoDB, React e Electron, e conforme mais tecnologias que estarei aprendendo para desenvolver também para o mobile como o React Native.</h3>
 
-📧 **[wesley_wisch@hotmail.com](mailto:wesley_wisch@hotmail.com)**
+ <h2 id="autor"> 🦸 Autor</h2>
 
-##  ⚠️  Licença
-Esse projeto esta sobre a licença Mit. veja: [LICENSE](https://github.com/wesleywisch/Repositorio-HTML-CSS-JavaScript/blob/main/LICENSE)
+[Wesley Wisch](https://www.linkedin.com/in/wesley-wisch)
 
-![LICENSE-MIT2](https://user-images.githubusercontent.com/79159487/114733599-7c478980-9d11-11eb-98da-262603bc1c13.png)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square-border&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wesley-wisch/)](https://www.linkedin.com/in/wesley-wisch) [![Instagram Badge](https://img.shields.io/badge/-Instagram-CC0000?style=flat-square-border&logo=Instagram&logoColor=white&link=https://www.instagram.com/wesley_wisch/)](https://www.instagram.com/wesley_wisch/) [![wesley_wisch@hotmail.com Bagde](https://img.shields.io/badge/wesley_wisch-2e7eea?style=flat-square-border&logo=microsoft-outlook&logoColor=white)](mailto:wesley_wisch@hotmail.com)
+
+<h2 id="licenca"> ⚠️  Licença</h2>
+
+Esse projeto esta sobre a licença [MIT](https://github.com/wesleywisch/Repositorio-HTML-CSS-JavaScript/blob/main/LICENSE).
